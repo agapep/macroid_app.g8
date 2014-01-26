@@ -16,6 +16,8 @@ proguardOptions in Android ++= Seq(
 libraryDependencies ++= Seq(
 )
 
+platformTarget in Android := "$target$"
+
 run <<= run in Android
 
 install <<= install in Android
