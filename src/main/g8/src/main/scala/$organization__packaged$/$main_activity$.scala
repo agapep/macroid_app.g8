@@ -3,6 +3,7 @@ package $organization$
 import android.app.Activity
 import android.os.Bundle
 import android.view.Menu
+import android.widget.TextView
 
 import macroid.Contexts 
 import macroid.contrib.Layouts.VerticalLinearLayout
