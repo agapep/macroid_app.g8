@@ -8,8 +8,6 @@ versionCode := Some(1)
 
 versionName := Some("0.1")
 
-android.Plugin.androidBuild
-
 scalaVersion := "$scala_version$"
 
 proguardOptions in Android ++= Seq(
